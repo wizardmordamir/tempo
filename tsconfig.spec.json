@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": "src",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "tsBuildInfoFile": "./dist/.tsbuildinfo.spec",
+    "types": [
+      "node",
+      "bun",
+      "express"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.test.ts",
+    "src/**/*.spec.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}

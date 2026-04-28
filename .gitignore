@@ -1,0 +1,9 @@
+*.ignore*
+*.bu.*
+.DS_Store
+coverage
+dist
+node_modules
+package-lock.json
+scripts/reports
+tsconfig.tsbuildinfo
